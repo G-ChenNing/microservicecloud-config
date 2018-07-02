@@ -1,0 +1,14 @@
+spring:
+    profiles:
+        active:
+        - dev
+---
+spring:
+    profiles: dev
+    application:
+        name: microsevicecloud-config-wcn-dev
+---
+spring:
+    profiles: test
+    application:
+        name: microsevicecloud-config-wcn-test
